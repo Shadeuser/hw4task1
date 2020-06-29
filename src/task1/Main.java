@@ -13,6 +13,7 @@ public class Main {
 
         new Thread(() -> { // Поток 1
 
+
                 try {
                     for (int i = 0; i <= NUM_TIMES ; i++) {
                         synchronized (monitor) {
